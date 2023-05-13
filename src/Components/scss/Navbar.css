@@ -1,0 +1,20 @@
+.navbar {
+  background: #3B5998;
+}
+
+.navbar_container {
+  max-width: 1024px;
+  align-items: center;
+}
+.navbar_container .navbar_links {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .navbar_container {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

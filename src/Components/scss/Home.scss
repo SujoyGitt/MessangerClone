@@ -1,0 +1,59 @@
+.messages {
+  max-width: 1024px;
+  max-height: 100vh;
+  margin: 65px auto;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+  .messages_other-msg p {
+    background: #f1f0f0;
+  }
+  .messages_my p {
+    background: #0084ff;
+  }
+  .input-form {
+    max-width: 1024px;
+    margin: 0px auto;
+    .input_control {
+      border: 1px solid #efefef;
+      outline: none;
+    }
+  }
+  .messages_other-img {
+    max-height: 45px;
+    max-width: 45px;
+  }
+}
+.welcome {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(-220deg, white, #0084ff57);
+  .welcome-inner p{
+    min-width: 200px;
+    max-width: 500px;
+    background: white;
+    box-shadow: 0px 0px 20px 10px rgba(87, 87, 87, 0.151);
+    border-radius: 25px;
+    border-bottom-right-radius: 5px;
+    font-size: large;
+    font-family: cursive;
+  }
+  .welcomeLogo{
+    max-height: 60px;
+    max-width: 60px;
+    img{
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .messages {
+    width: 100%;
+  }
+  .input-form {
+    width: 100%;
+  }
+}

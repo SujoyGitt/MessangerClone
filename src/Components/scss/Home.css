@@ -1,0 +1,32 @@
+.messages {
+  max-width: 1024px;
+  max-height: 100vh;
+  margin: 65px auto;
+}
+.messages .messages_other-msg p {
+  background: #f1f0f0;
+}
+.messages .messages_my p {
+  background: #0084ff;
+}
+.messages .input-form {
+  max-width: 1024px;
+  margin: 0px auto;
+}
+.messages .input-form .input_control {
+  border: 1px solid #efefef;
+  outline: none;
+}
+.messages .messages_other-img {
+  max-height: 45px;
+  max-width: 45px;
+}
+
+@media (max-width: 1024px) {
+  .messages {
+    width: 100%;
+  }
+  .input-form {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Home.css.map */
