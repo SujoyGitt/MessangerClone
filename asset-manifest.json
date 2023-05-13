@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MessangerClone/static/css/main.064d32d0.css",
+    "main.js": "/MessangerClone/static/js/main.f20d9c34.js",
+    "static/media/Facebook_Messenger_logo.png": "/MessangerClone/static/media/Facebook_Messenger_logo.758c610da13293e0c141.png",
+    "index.html": "/MessangerClone/index.html",
+    "main.064d32d0.css.map": "/MessangerClone/static/css/main.064d32d0.css.map",
+    "main.f20d9c34.js.map": "/MessangerClone/static/js/main.f20d9c34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.064d32d0.css",
+    "static/js/main.f20d9c34.js"
+  ]
+}
